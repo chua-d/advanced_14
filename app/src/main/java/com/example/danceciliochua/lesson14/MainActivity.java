@@ -68,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+        helper.attachToRecyclerView(recyclerView);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
